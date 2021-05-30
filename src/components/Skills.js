@@ -14,7 +14,6 @@ import GitLogo from "../images/git-icon.svg";
 import DockerLogo from "../images/docker.svg";
 import GoLogo from "../images/gocd.svg";
 import K8Logo from "../images/kubernets.svg";
-import AirflowLogo from "../images/airflow.png";
 
 
 
