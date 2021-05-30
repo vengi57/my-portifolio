@@ -116,19 +116,19 @@ const Skills = () => {
         </Grid>
         <Grid item xs>
           <Paper className={classes.paper}>
-            <h3 className="skills-text">GOCD Pipelines</h3>
+            <h3 className="skills-text">MySql</h3>
             <img src={MysqlLogo} className="skills-logo" alt="mysql-logo" />
           </Paper>
         </Grid>
         <Grid item xs>
           <Paper className={classes.paper}>
-            <h3 className="skills-text">Docker</h3>
+            <h3 className="skills-text">Postgres Sql</h3>
             <img src={PostgresLogo} className="skills-logo" alt="postgres-logo" />
           </Paper>
         </Grid>
         <Grid item xs>
           <Paper className={classes.paper}>
-            <h3 className="skills-text">kubernets</h3>
+            <h3 className="skills-text">Docker</h3>
             <img src={DockerLogo} className="skills-logo" alt="docker-logo" />
           </Paper>
         </Grid>
