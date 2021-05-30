@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import projectInfo from "../utils/MetaDatainfo";
-import ProjectContent from "./ProjectContent"
+import ProjectContent from "./ProjectContent";
 import "./ProjectView.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -27,18 +27,15 @@ const ProjectView = () => {
   const classes = useStyles();
   return (
     <div>
-      <h3 className="project-header">Projects which I implemented for learning</h3>
+      <h3 className="project-header">
+        Projects which I implemented for learning
+      </h3>
       <Grid container className={classes.root}>
         <Grid item xs={12}>
           <Grid container justify="center" spacing={5}>
             {projectInfo.map((value) => (
               <Grid key={value} item>
-                {/* <Paper className={classes.paper}> */}
-                    <ProjectContent projectContent={value}/>
-                  {/* <h3>{value["name"]}</h3>
-                  <h3>{value["description"]}</h3>
-                  <h3>{value["url"]}</h3> */}
-                {/* </Paper> */}
+                <ProjectContent projectContent={value} />
               </Grid>
             ))}
           </Grid>

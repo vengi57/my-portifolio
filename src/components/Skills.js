@@ -12,15 +12,8 @@ import FastApiLogo from "../images/fastapi.png";
 import CLogo from "../images/c.png";
 import GitLogo from "../images/git-icon.svg";
 import DockerLogo from "../images/docker.svg";
-import GoLogo from "../images/gocd.svg";
-import K8Logo from "../images/kubernets.svg";
-
-
-
-
-
-
-
+import MysqlLogo from "../images/mysql.svg";
+import PostgresLogo from "../images/postgres.svg";
 import "./Skills.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -108,7 +101,7 @@ const Skills = () => {
           </Paper>
         </Grid>
       </Grid>
-      <h3 className="skills-txt-sub">Version controls & Devops</h3>
+      <h3 className="skills-txt-sub">Version controls & Databases</h3>
       <Grid
         container
         direction="row"
@@ -124,19 +117,19 @@ const Skills = () => {
         <Grid item xs>
           <Paper className={classes.paper}>
             <h3 className="skills-text">GOCD Pipelines</h3>
-            <img src={GoLogo} className="skills-logo" alt="go-logo" />
+            <img src={MysqlLogo} className="skills-logo" alt="mysql-logo" />
           </Paper>
         </Grid>
         <Grid item xs>
           <Paper className={classes.paper}>
             <h3 className="skills-text">Docker</h3>
-            <img src={DockerLogo} className="skills-logo" alt="docker-logo" />
+            <img src={PostgresLogo} className="skills-logo" alt="postgres-logo" />
           </Paper>
         </Grid>
         <Grid item xs>
           <Paper className={classes.paper}>
             <h3 className="skills-text">kubernets</h3>
-            <img src={K8Logo} className="skills-logo" alt="k8s-logo" />
+            <img src={DockerLogo} className="skills-logo" alt="docker-logo" />
           </Paper>
         </Grid>
       </Grid>
