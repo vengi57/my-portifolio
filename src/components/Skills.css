@@ -1,0 +1,31 @@
+.skills-wrapper {
+  display: flex;
+  /* justify-content:center; */
+  justify-content: space-around;
+  align-items: center;
+}
+.stack-logo {
+  height: 30px;
+  width: 30px;
+}
+.skills-logo {
+  height: 100px;
+  width: 100px;
+}
+.skills-text {
+  color: white;
+  font-family: monospace;
+  letter-spacing: 1.5px;
+}
+.skills-txt {
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-family: "Bangers", cursive;
+  color: white;
+}
+.skills-txt-sub {
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-family:monospace;
+    color: white;
+  }

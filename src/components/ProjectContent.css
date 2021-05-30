@@ -1,0 +1,15 @@
+.project-list-wrapper {
+  flex-grow: 1;
+  padding: 12px;
+}
+.title-text {
+  font-family: monospace;
+}
+.url-btn {
+  border: 2px solid #336dcc;
+  border-radius: 15px;
+  width: 45%;
+  color: white;
+  background: #070d17;
+  cursor: pointer;
+}

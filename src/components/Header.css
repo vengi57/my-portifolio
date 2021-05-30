@@ -1,0 +1,38 @@
+.header-body {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem;
+  /* color: #141c3a; */
+  color: white;
+  font-size: 35px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 10px;
+  font-weight: 600;
+  /* font-family: "eurostile", sans-serif; */
+}
+
+.header-text-sub{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: monospace;
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .header-body {
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        flex-shrink: 0;
+        padding: 3rem;
+        /* color: #141c3a; */
+        color: white;
+        font-size: 35px;
+        font-family: "Bangers", cursive;
+        letter-spacing: 10px;
+        font-weight: 600;
+        /* font-family: "eurostile", sans-serif; */
+      }
+}
