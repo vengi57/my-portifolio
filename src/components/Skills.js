@@ -36,7 +36,8 @@ const Skills = () => {
 
   return (
     <div className={classes.root}>
-      <h1 className="skills-txt">Skills</h1>
+      <h1 className="skills-txt">❰ ▶ Skills ◀ ❱</h1>
+      <br/>
       <h3 className="skills-txt-sub">Scripting languages & Frameworks</h3>
       <Grid
         container

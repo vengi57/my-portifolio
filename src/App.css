@@ -12,8 +12,11 @@
   height: 200px;
 }
 .computer-logo{
-  width:300px;
+  width:450px;
   height:300px
+}
+.horizontal-line{
+  width:96%
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

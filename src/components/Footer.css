@@ -1,0 +1,16 @@
+.footer-wrapper{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.social-img{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+.footer-text{
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-family: "Bangers", cursive;
+    color: white;
+}

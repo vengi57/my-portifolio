@@ -28,7 +28,7 @@ const ProjectView = () => {
   return (
     <div>
       <h3 className="project-header">
-        Projects which I implemented for learning
+        ❰ ▶ Projects which I implemented for learning ◀ ❱
       </h3>
       <Grid container className={classes.root}>
         <Grid item xs={12}>

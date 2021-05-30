@@ -2,9 +2,10 @@ import React from "react";
 import Header from "./components/Header";
 import ComputerLogo from "./images/computer.svg";
 import UserFace from "./images/myface.png";
-import "./App.css"
+import "./App.css";
 import ProjectView from "./components/ProjectView";
-import Skills from "./components/Skills"
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 const styles = {
   fontFamily: "sans-serif",
@@ -19,9 +20,16 @@ const App = () => (
     <img src={ComputerLogo} className="computer-logo" alt="compterlogo" />
     <br />
     <br />
+    <hr className="horizontal-line" />
     <ProjectView />
+    <hr className="horizontal-line" />
     <br />
-    <Skills/>
+    <Skills />
+    <br />
+    <hr className="horizontal-line" />
+    <Footer />
+    <hr className="horizontal-line" />
+    <br />
   </div>
 );
 
