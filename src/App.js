@@ -6,6 +6,9 @@ import "./App.css";
 import ProjectView from "./components/ProjectView";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import NavTab from "./components/NavTab";
+import Blogs from "./components/Blogs";
+import MyDescription from "./components/MyDescription";
 
 const styles = {
   fontFamily: "sans-serif",
@@ -14,17 +17,22 @@ const styles = {
 };
 const App = () => (
   <div style={styles}>
+    <NavTab />
+    <hr className="horizontal-line" />
     <Header />
     <img src={UserFace} alt="userface" className="user-face" />
     <br />
+    <MyDescription/>
     <img src={ComputerLogo} className="computer-logo" alt="compterlogo" />
-    <br />
     <br />
     <hr className="horizontal-line" />
     <ProjectView />
     <hr className="horizontal-line" />
     <br />
     <Skills />
+    <br />
+    <hr className="horizontal-line" />
+    <Blogs />
     <br />
     <hr className="horizontal-line" />
     <Footer />

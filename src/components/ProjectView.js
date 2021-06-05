@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
 const ProjectView = () => {
   const classes = useStyles();
   return (
-    <div>
+    <div id="projects">
+      <br/>
       <h3 className="project-header">
         ❰ ▶ Projects which I implemented for learning ◀ ❱
       </h3>

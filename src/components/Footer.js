@@ -1,6 +1,6 @@
 import React from "react";
 import twitter from "../images/twitter.svg";
-import github from "../images/github.svg";
+import github from "../images/github-white.svg";
 import instagram from "../images/instagram.svg";
 import linkedin from "../images/linkedin.svg";
 import Tooltip from "@material-ui/core/Tooltip";
@@ -8,7 +8,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <>
+    <div id="contact">
       <h2 className="footer-text">❰ ▶ Contact Me ◀ ❱</h2>
       <div className="footer-wrapper">
         <Tooltip title="Twitter" arrow placement="right">
@@ -40,7 +40,7 @@ const Footer = () => {
           </a>
         </Tooltip>
       </div>
-    </>
+    </div>
   );
 };
 export default Footer;

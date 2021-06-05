@@ -35,7 +35,8 @@ const Skills = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="skills">
+      <br/>
       <h1 className="skills-txt">❰ ▶ Skills ◀ ❱</h1>
       <br/>
       <h3 className="skills-txt-sub">Scripting languages & Frameworks</h3>

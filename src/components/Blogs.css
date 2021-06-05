@@ -1,0 +1,27 @@
+.blog-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.blog-header{
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-family: "Bangers", cursive;
+    color: white;
+}
+.blog-url-btn {
+    border: 2px solid #336dcc;
+    border-radius: 15px;
+    width: 45%;
+    height:40px;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+    background: #070d17;
+    cursor: pointer;
+}
+.blog-text{
+    font-family: monospace;
+    font-size: 15px;
+}

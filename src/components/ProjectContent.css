@@ -10,6 +10,7 @@
   border-radius: 15px;
   width: 45%;
   color: white;
+  font-family: monospace;
   background: #070d17;
   cursor: pointer;
 }

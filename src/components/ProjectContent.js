@@ -59,7 +59,7 @@ const ProjectContent = (props) => {
                     onClick={() => openProjectUrl(props.projectContent["url"])}
                   >
                     {" "}
-                    <h3>View website</h3>
+                    <h3>View Website</h3>
                   </button>
                 </Typography>
               </Grid>
