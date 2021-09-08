@@ -15,7 +15,7 @@ const styles = {
   textAlign: "center",
   backgroundColor: "#070D17",
 };
-let test = "I am test"
+
 const App = () => (
   <div style={styles}>
     <NavTab />
